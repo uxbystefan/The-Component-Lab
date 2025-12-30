@@ -1,0 +1,30 @@
+body {
+background: #EEEEEE;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+h1 {
+
+font-family:Roboto, sans-serif;
+color: #3E31B1;
+text-align: center;
+font-weight: 900;
+font-size: 3rem;
+margin-bottom: 0.3rem;
+
+}
+
+p {
+
+font-family:Roboto, sans-serif;
+color: #3E31B1;
+text-align: center;
+font-weight: 500;
+font-size: 1.5rem;
+
+}
