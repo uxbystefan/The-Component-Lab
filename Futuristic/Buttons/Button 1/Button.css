@@ -11,15 +11,15 @@ body {
 
 .futuristic-button {
     position: relative;
-    width: 120px;
-    height: 52px;
+    width: 200px;
+    height: 70px;
     padding: 0;
     border: none;
     background: linear-gradient(var(--angle), #192BEF 0%, #890E81 100%);
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
-    animation: rotateGradient 3s linear infinite;
+    animation: rotateGradient 1.5s linear infinite;
 }
 
 @property --angle {
@@ -56,9 +56,9 @@ body {
     right: 2px;
     bottom: 2px;
     background: #0a0a0a;
-    border-radius: 2px;
+    border-radius: 4px;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
