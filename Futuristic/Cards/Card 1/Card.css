@@ -105,13 +105,6 @@ body {
                 linear-gradient(135deg, #890E81 0%, #192BEF 100%) border-box;
 }
 
-.input-group.focused .input-field {
-    background: linear-gradient(135deg, #890E81 0%, #192BEF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 .input-icon {
     width: 32px;
     height: 32px;
