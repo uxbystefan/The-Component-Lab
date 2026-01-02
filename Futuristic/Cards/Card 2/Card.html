@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 2 - Expandable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="Card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card">
+            <div class="card-header" id="cardHeader">
+                <h2>Details</h2>
+                <button class="expand-btn" id="expandBtn">
+                    <i class="ph ph-plus-circle icon-toggle"></i>
+                </button>
+            </div>
+            
+            <div class="card-content" id="cardContent">
+                <div class="status">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Active</span>
+                </div>
+                
+                <div class="price">$129.99</div>
+                
+                <p class="description">Bespoke support. No<br>automated queues.</p>
+                
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Card.js"></script>
+</body>
+</html>
