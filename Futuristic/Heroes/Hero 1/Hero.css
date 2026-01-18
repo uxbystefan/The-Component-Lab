@@ -13,7 +13,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, #4a1558 0%, #2a1040 20%, #1a1838 40%, #0f1428 60%, #080d1c 80%, #030508 100%);
+    background: linear-gradient(90deg, #6b1d7a 0%, #4a1558 20%, #2d1348 40%, #1a2f5a 60%, #0f3a6e 80%, #0a4a8f 100%);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -189,12 +189,12 @@ body {
 /* Gradient Glow */
 .gradient-glow {
     position: absolute;
-    bottom: -200px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    width: 800px;
-    height: 800px;
-    background: radial-gradient(circle, rgba(137, 14, 129, 0.3) 0%, rgba(25, 43, 239, 0.2) 50%, transparent 70%);
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    background: radial-gradient(ellipse, rgba(137, 14, 129, 0.6) 0%, rgba(25, 43, 239, 0.4) 50%, transparent 70%);
     border-radius: 50%;
     filter: blur(80px);
     z-index: 1;
@@ -215,12 +215,12 @@ body {
 
 @keyframes pulse {
     0%, 100% {
-        transform: translateX(-50%) scale(1);
-        opacity: 0.3;
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
     }
     50% {
-        transform: translateX(-50%) scale(1.1);
-        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(1.15);
+        opacity: 0.8;
     }
 }
 
