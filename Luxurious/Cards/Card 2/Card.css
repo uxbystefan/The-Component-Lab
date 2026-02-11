@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* Card dimensions */
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 35px;
+    
+    /* Border radius */
+    border-radius: 24px;
+    border: 0.2px solid #8b7355;
+    
+    /* Blue marble background */
+    background: #1a3a5c url('Blue-marble.png') center/cover;
+    background-blend-mode: overlay;
+    
+    /* Effects */
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        inset 0 1px 2px rgba(255, 255, 255, 0.1);
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #C9A24D;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Name */
+.name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #C9A24D;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 4px rgba(201, 162, 77, 0.25);
+    letter-spacing: 0.5px;
+}
+
+/* Title */
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #C9A24D;
+    margin-bottom: 24px;
+    letter-spacing: 0.3px;
+}
+
+/* Description */
+.description {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 28px;
+    letter-spacing: 0.2px;
+}
+
+/* Access Button */
+.access-button {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    background: #000000;
+    border: 0.2px solid #C9A24D;
+    border-radius: 32px;
+    color: #C9A24D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 280px;
+}
+
+.access-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.access-button:active {
+    transform: translateY(0);
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.social-link {
+    color: #C9A24D;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+    transform: translateY(-2px);
+}
+
+.social-link svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Member ID */
+.member-id {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
